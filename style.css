@@ -1,4 +1,6 @@
-@import url(style/header.css);
+@import url("style/header.css");
+@import url("style/banner.css");
+
 :root{
     --cor--de-fundo: #EBECEE;
     --branco: #ffffff;
@@ -7,6 +9,7 @@
     --fonte-principal: "Poppins" 
 
 }
+
 body{
     background-color: var(--cor--de-fundo);
     font-family: var(--fonte-principal);
