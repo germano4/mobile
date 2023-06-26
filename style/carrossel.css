@@ -14,7 +14,8 @@
 
 }
 
-.swiper_button-prev,.swiper_button-next{
+.swiper_button-prev,
+.swiper_button-next{
     display: none;
 }
 

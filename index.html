@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="recet.css">
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
    <title>AluraBooks</title>
 </head>
 
@@ -51,7 +51,7 @@
     <section class="banner">
       <h2 class="banner_titulo">Já sabe por onde começar?</h2>
       <p class="banner_texto"> Encontre em nossa estante o que vc precisa para o seu desenvolvimento </p>
-      <input type="search" class="banner_pesquisa" placecholder="Qual sera sua proxima leitura?" >
+      <input type="search" class="banner_pesquisa" placeholder="Qual será sua proxima leitura?">
     </section>
 
     <section class="carrossel">
@@ -59,21 +59,22 @@
 
      <div class="swiper">
      <div class="swiper-pagination"></div>
+
        <div class="swiper-wrapper">
-         <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Livro sobre Apache Kafka"></div>
-         <div class="swiper-slide"><img src="img/Liderança.svg" alt="Livro sobre Liderança"></div>
-         <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro sobre Javascript"></div>
-         <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="Livro sobre Front-end"></div>
-         <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre Portugol"></div>
-         <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="Livro sobre Acessibilidade"></div>
+         <div class="swiper_slide"><img src="img/ApacheKafka.svg" alt="Livro sobre Apache Kafka"></div>
+         <div class="swiper_slide"><img src="img/Liderança.svg" alt="Livro sobre Liderança"></div>
+         <div class="swiper_slide"><img src="img/Javascript.svg" alt="Livro sobre Javascript"></div>
+         <div class="swiper_slide"><img src="img/Guia Front-end.svg" alt="Livro sobre Front-end"></div>
+         <div class="swiper_slide"><img src="img/Portugol.svg" alt="Livro sobre Portugol"></div>
+         <div class="swiper_slide"><img src="img/Acessibilidade.svg" alt="Livro sobre Acessibilidade"></div>
        </div>
 
        <div class="swiper-button-prev"></div>
        <div class="swiper-button-next"></div>
      </div>  
     </section>
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
 
     <script>
       const swiper = new swiper('.swiper',{
